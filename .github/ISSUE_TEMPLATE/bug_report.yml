@@ -6,11 +6,15 @@ body:
   - type: dropdown
     id: product
     attributes:
-      label: Product
-      description: Which Cloudspire product is this about?
+      label: Area
+      description: Which area of Cloudspire Voice is this about?
       options:
-        - Cloudspire Voice (PBX Admin)
-        - Cloudspire AI
+        - PBX Admin (tenants, extensions, DIDs)
+        - Call Routing (IVRs, hunt groups, call flows)
+        - Call Center (queues, agents, dashboards)
+        - Phone Provisioning
+        - SMS / MMS Messaging
+        - CNAM / Caller ID
         - Documentation
         - Other
     validations:
