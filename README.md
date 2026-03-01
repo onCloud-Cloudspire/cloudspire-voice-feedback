@@ -31,18 +31,21 @@ This tracker covers all Cloudspire Voice features:
 
 > For Cloudspire AI issues (voice agents, chat agents, SMS AI), use [cloudspire-ai](https://github.com/onCloud-Cloudspire/cloudspire-ai).
 
+## Issue Types
+
+Issues are categorized using GitHub's built-in issue types: **Feature**, **Bug**, or **Task**.
+
 ## Labels
 
 | Label | Meaning |
 |---|---|
-| `bug` | Something isn't working correctly |
-| `enhancement` | New feature or improvement request |
 | `roadmap` | Committed to the product roadmap |
 | `under-review` | Submitted but not yet committed to roadmap |
 | `critical` | System down or data loss |
-| `high` / `priority-high` | Major issue, no workaround |
-| `medium` / `priority-medium` | Partial issue, workaround exists |
-| `low` / `priority-low` | Minor or cosmetic |
+| `high` | Major issue, no workaround |
+| `medium` | Partial issue, workaround exists |
+| `low` | Minor or cosmetic |
+| `voice` | Cloudspire Voice (PBX) |
 | `call-center` | Call center and agent management features |
 | `docs` | Documentation |
 | `resolved` | Fixed, pending verification |
