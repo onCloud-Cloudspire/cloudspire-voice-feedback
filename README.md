@@ -1,6 +1,6 @@
-# Cloudspire Feedback
+# Cloudspire Voice
 
-Bug reports, feature requests, and feedback for Cloudspire products.
+Bug reports, feature requests, feedback, and roadmap for Cloudspire Voice — cloud PBX and unified communications.
 
 ## How to Submit
 
@@ -9,11 +9,27 @@ Bug reports, feature requests, and feedback for Cloudspire products.
 3. Choose **Bug Report** or **Feature Request**
 4. Fill out the form and submit
 
-## Products
+## What Belongs Here
 
-- **Cloudspire Voice** — Cloud PBX administration
-- **Cloudspire AI** — AI-powered voice and chat agents
-- **Documentation** — docs.oncloud.io
+- **Bug reports** — Something isn't working correctly in Cloudspire Voice
+- **Feature requests** — Suggest improvements or new capabilities
+- **Feedback** — General feedback on the Voice platform
+- **Roadmap items** — Track committed and planned features
+
+## Scope
+
+This tracker covers all Cloudspire Voice features:
+
+- PBX administration (tenants, extensions, DIDs)
+- Call routing (IVRs, hunt groups, call flows, conferences)
+- Call center (queues, agents, dashboards, reporting)
+- Phone provisioning and management
+- SMS/MMS messaging
+- CNAM caller ID
+- Voicemail and fax
+- Documentation (docs.oncloud.io)
+
+> For Cloudspire AI issues (voice agents, chat agents, SMS AI), use [cloudspire-ai](https://github.com/onCloud-Cloudspire/cloudspire-ai).
 
 ## Labels
 
@@ -21,13 +37,14 @@ Bug reports, feature requests, and feedback for Cloudspire products.
 |---|---|
 | `bug` | Something isn't working correctly |
 | `enhancement` | New feature or improvement request |
+| `roadmap` | Committed to the product roadmap |
+| `under-review` | Submitted but not yet committed to roadmap |
 | `critical` | System down or data loss |
-| `high` | Major issue, no workaround |
-| `medium` | Partial issue, workaround exists |
-| `low` | Minor or cosmetic |
-| `voice` | Cloudspire Voice (PBX) |
-| `ai` | Cloudspire AI |
+| `high` / `priority-high` | Major issue, no workaround |
+| `medium` / `priority-medium` | Partial issue, workaround exists |
+| `low` / `priority-low` | Minor or cosmetic |
+| `call-center` | Call center and agent management features |
 | `docs` | Documentation |
+| `resolved` | Fixed, pending verification |
 | `duplicate` | Already reported |
 | `wontfix` | Not planned |
-| `resolved` | Fixed, pending verification |
