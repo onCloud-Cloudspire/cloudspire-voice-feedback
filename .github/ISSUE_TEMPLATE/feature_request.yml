@@ -13,7 +13,12 @@ body:
         - Call Center (queues, agents, dashboards)
         - Phone Provisioning
         - SMS / MMS Messaging
+        - Voicemail
+        - eFax
         - CNAM / Caller ID
+        - Quotes & Billing (quotes, invoices, client portal)
+        - Web Softphone (voice portal)
+        - Mobile Apps (iOS / Android)
         - Documentation
         - Other
     validations:
